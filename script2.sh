@@ -1,4 +1,4 @@
-uname -a
-lscpu
-free -h
-df -h
+uname -a #es la opción más completa para mostrar toda la información de identificación del sistema operativo y del hardware de una sola vez.
+lscpu #lscpu: se utiliza para mostrar la información de la arquitectura de la CPU (Unidad Central de Procesamiento) de tu sistema.
+free -h #free:se utiliza para mostrar información sobre la memoria del sistema. -h: significa "human readable" (legible por humanos), lo que presenta los tamaños en unidades fáciles de leer (como Gigabytes, Megabytes) en lugar de bloques de 1 Kilobyte.
+df -h #se utiliza para mostrar el espacio libre y usado en los sistemas de archivos (discos duros y particiones). -h: significa "human readable" (legible por humanos), lo que presenta los tamaños en unidades fáciles de leer (como Gigabytes, Megabytes) en lugar de bloques de 1 Kilobyte.
